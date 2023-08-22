@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @RequestMapping("/api/books")
 public interface BooksApi {
-
+    // тут документация
     @PostMapping
     void addBook();
 }

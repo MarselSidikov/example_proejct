@@ -11,6 +11,6 @@ import de.ait.ep.controllers.api.BooksApi;
 public class BooksController implements BooksApi {
     @Override
     public void addBook() {
-
+        System.out.println("Обращаемся к сервису");
     }
 }
